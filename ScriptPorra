@@ -67,16 +67,16 @@ RunService:BindToRenderStep("furryWalls", Enum.RenderPriority.Camera.Value - 1, 
 	end
 end)
 
-local mainWindow = Library:CreateWindow("Squares's Hitbox Expander")
+local mainWindow = Library:CreateWindow("Onetap.blox v1")
 local mainTab = mainWindow:AddTab("Main")
-local mainGroupbox = mainTab:AddLeftGroupbox("Hitbox Expander")
-local espGroupbox = mainTab:AddLeftGroupbox("ESP")
+local mainGroupbox = mainTab:AddLeftGroupbox("CuExpander")
+local espGroupbox = mainTab:AddLeftGroupbox("ESP de caderantes")
 local ignoresGroupbox = mainTab:AddRightGroupbox("Ignores")
 local collisionsGroupbox = mainTab:AddRightGroupbox("Collisions")
 local miscGroupbox = mainTab:AddLeftGroupbox("Keybinds")
 
-local emergencyTab = mainWindow:AddTab("Emergency")
-local emergencyGroupbox = emergencyTab:AddLeftGroupbox("Fixes")
+local emergencyTab = mainWindow:AddTab("Carlos sugar daddy")
+local emergencyGroupbox = emergencyTab:AddLeftGroupbox("Thomass da o cu pro carlos izi")
 
 mainGroupbox:AddToggle("expanderToggled", { Text = "Toggle" }):OnChanged(updatePlayers)
 mainGroupbox:AddSlider("expanderSize", { Text = "Size", Min = 2, Max = 100, Default = 10, Rounding = 1 }):OnChanged(updatePlayers)

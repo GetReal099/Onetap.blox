@@ -944,7 +944,7 @@ end
 function library:AddWindow(title, options)
 	windows = windows + 1
 	local dropdown_open = false
-	title = "Onetap.Blox v2 beta"
+	title = "😔Onetap.Blox v2 beta😔"
 	options = (typeof(options) == "table") and options or ui_options
 	options.tween_time = 0.1
 
